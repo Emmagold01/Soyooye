@@ -33,7 +33,7 @@ export default function Portfolio() {
 
   return (
     <section id="work" className="font-inter bg-[#0D0D0D] py-20">
-      <div className="mx-auto max-w-6xl space-y-10 px-5">
+      <div className="mx-auto max-w-7xl space-y-10 px-5">
         <motion.div {...scrollIn} className="text-center">
           <h1 className="text-5xl font-extrabold">Portfolio</h1>
           <p className="text-xl text-[#B3B3B3]">Selected Works and Projects</p>
