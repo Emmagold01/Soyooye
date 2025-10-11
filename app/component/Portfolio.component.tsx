@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 import { projects } from "../data";
 import Image from "next/image";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 const techIcons: Record<string, string> = {
   HTML: "vscode-icons:file-type-html",
@@ -97,7 +98,7 @@ export default function Portfolio() {
             ))}
         </div>
 
-        <a href="/project" className="mt-5 flex cursor-pointer justify-center">
+        <Link   href="/project" className="mt-5 flex cursor-pointer justify-center">
           <motion.button
             {...scrollInBtn}
             className="flex w-fit items-center space-x-1 rounded-full bg-[#3B82F6] px-4 py-3 text-center text-sm font-bold transition-all hover:bg-[#3B82F6]/90 hover:shadow-lg hover:shadow-[#3B82F6]/40"
@@ -105,7 +106,7 @@ export default function Portfolio() {
             <Icon icon="tabler:border-all" className="text-lg" />
             <span>View All Projects</span>
           </motion.button>
-        </a>
+        </Link>
       </div>
     </section>
   );

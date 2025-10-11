@@ -5,6 +5,7 @@ import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import { projects } from "../data";
 import Image from "next/image";
+import Link from "next/link";
 
 // Your tech icons mapping
 const techIcons: Record<string, string> = {
@@ -65,7 +66,7 @@ export default function AllProjects() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-6">
           <div className="flex items-center space-x-4">
-            <a
+            <Link
               href="/"
               className="flex items-center space-x-2 text-[#B3B3B3] transition-colors hover:text-white"
             >
@@ -74,7 +75,7 @@ export default function AllProjects() {
                 className="text-2xl"
               />
               <span className="hidden text-sm md:block">Back to Home</span>
-            </a>
+            </Link>
           </div>
           <div className="text-center">
             <h1 className="text-3xl font-extrabold">All Projects</h1>
