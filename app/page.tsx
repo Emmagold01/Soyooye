@@ -2,6 +2,7 @@
 
 import Navbar from "./component/Navbar.component";
 import Hero from "./component/Hero.component";
+import About from "./component/About.component";
 import Portfolio from "./component/Portfolio.component";
 import Contact from "./component/Contact.component";
 import { easeInOut, motion } from "motion/react";
@@ -17,6 +18,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
+      <About />
       <Portfolio />
       <Contact />
     </motion.div>
