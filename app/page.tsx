@@ -6,6 +6,7 @@ import About from "./component/About.component";
 import Portfolio from "./component/Portfolio.component";
 import Contact from "./component/Contact.component";
 import { easeInOut, motion } from "motion/react";
+import Footer from "./component/Footer.component";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       <Portfolio />
       <Contact />
+      <Footer />
     </motion.div>
   );
 }
