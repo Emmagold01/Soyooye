@@ -15,6 +15,8 @@ const techIcons: Record<string, string> = {
   TypeScript: "logos:typescript-icon",
   Bootstrap: "logos:bootstrap",
   "Framer Motion": "logos:framer",
+  Supabase: "logos:supabase-icon",
+  Vercel: "logos:vercel-icon",
 };
 
 export default function Portfolio() {
@@ -98,7 +100,10 @@ export default function Portfolio() {
             ))}
         </div>
 
-        <Link   href="/project" className="mt-5 flex cursor-pointer justify-center">
+        <Link
+          href="/project"
+          className="mt-5 flex cursor-pointer justify-center"
+        >
           <motion.button
             {...scrollInBtn}
             className="flex w-fit items-center space-x-1 rounded-full bg-[#3B82F6] px-4 py-3 text-center text-sm font-bold transition-all hover:bg-[#3B82F6]/90 hover:shadow-lg hover:shadow-[#3B82F6]/40"

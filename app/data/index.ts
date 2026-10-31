@@ -13,6 +13,7 @@ import fortry2 from "@/app/assets/project/fortry2.png";
 import leinad from "@/app/assets/project/leinad.png";
 import legacy from "@/app/assets/project/legacy.png";
 import ade from "@/app/assets/project/ade.png";
+import shelf from "@/app/assets/project/shelf.png"
 import { StaticImageData } from "next/image";
 
 interface Project {
@@ -175,5 +176,15 @@ export const projects: Project[] = [
     image: ade,
     liveUrl: "https://adetunwase360.com/",
     year: "2025",
+  },
+  {
+    id: 16,
+    title: "Shelf",
+    description:
+      "Shelf is an early-stage startup and publishing platform built to help African authors publish their work, connect with readers, and find a home for their stories.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "JavaScript", "Supabase", "Vercel"],
+    image: shelf,
+    liveUrl: "https://shelf.africa",
+    year: "2026",
   },
 ];
